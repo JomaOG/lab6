@@ -29,6 +29,9 @@ public class SupportSystem
      * Start the technical support system. This will print a welcome
      * message and enter into a dialog with the user, until the user
      * ends the dialog.
+     * 
+     * Question 11:
+     *      replaced startsWith with equals
      */
     public void start()
     {
@@ -38,8 +41,9 @@ public class SupportSystem
 
         while(!finished) {
             String input = reader.getInput();
-
-            if(input.startsWith("bye")) {
+            input = input.trim(); //Question 8
+            input = input.toLowerCase(); //Question 9
+            if(input.equals("bye")) {
                 finished = true;
             }
             else {
