@@ -33,7 +33,18 @@ public class Answer
     // Question 12:
         // Its in the java.util.random package
         // It returns a random number
-        // import java.util.random;
+        // import java.util.Random;
             // Random rand1 = new Random();
+            
+    // Question 13:
+        // import java.util.Random;
+            // Random rand1 = new Random();
+            // System.out.println(rand1);
+            
+    // Question 15:
+        // prints a number from 0 - 99
+        
+    
+    
         
 }
