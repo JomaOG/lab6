@@ -37,7 +37,14 @@ public class RandomTester
         return response.get(rand.nextInt(3));
     }
     
-    public void minMax(int min, int max) {
-        throwDice();
+    public void printMax(int max) {
+        //System.out.println(rand.nextInt(1,max));
+        printMinMax(1,max+1);
     }
+    
+    public void printMinMax(int min, int max) {
+        System.out.println(rand.nextInt(min,max)+1);
+    }
+    
+    
 }

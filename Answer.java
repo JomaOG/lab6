@@ -44,7 +44,55 @@ public class Answer
     // Question 15:
         // prints a number from 0 - 99
         
+    // Question 21:
+        // Yes it can be used instead
+        // It is important for authentication and authenticity
+        
+    // Question 23:
+        // IndexOutOfBound
+        
+    // Question 28:
+        // It replaces the 2nd key with the new key.
+        
+    // Question 29:
+        // A new key is added
+        
+    // Question 30:
+        // HashMap phoneBook = new HashMap();
+        // phoneBook.containsKey(keyName);
+        // return true if it contains key with keyName
     
+    // Question 31:
+        // returns false
+        
+    // Question 32:
+        // System.out.println(phoneBook.keySet());
+        
+    // Question 34:
     
+        
+    // Question 35:
+        // Split take its parameter and removes it from the String;
+        
+    // Question 36:
+        // String input = "Hello:";
+        // input = input.split(":");
+        // System.out.println(input); -> Output: "Hello"
+        
+    // Question 37:
+        
+    // Question 38:
+        // split method will remove them regardless;
+        
+    // Question 39:
+        // HashSet<String> work= new HashSet<>(Arrays.asList(wordArrays));
+        // HashSet parameters accepts collections as arguments
+        // Arrays.asList() return as a list(collection);
+        // Arrays.asList() accepts Strings[] as parameters;
+        // wordArray is an array of type String with is inputted by the user;
+        
+    // Question 40:
+        // Array has a method that can convert its value into a String: toString()
+        
         
 }
