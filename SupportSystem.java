@@ -45,15 +45,14 @@ public class SupportSystem
             HashSet<String> input = reader.getInput();
             //input = input.trim(); //Question 8
             //input = input.toLowerCase(); //Question 9
-            if(input.equals("bye")) {
+            if(input.contains("bye")) {
                 finished = true;
             }
             else {
-                //String response = responder.generateResponse(input);
-                //System.out.println(response);
+                String response = responder.generateResponse(input);
+                System.out.println(response);
             }
         }
-
         printGoodbye();
     }
 

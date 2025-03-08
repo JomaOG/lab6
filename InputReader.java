@@ -28,16 +28,14 @@ public class InputReader
      */
     public HashSet<String> getInput()
     {
-        System.out.print("> ");                                     //print prompt
+        System.out.print("> ");
         String inputLine = reader.nextLine().trim().toLowerCase();
         String[] wordArray = inputLine.split(" ");
-        
         //add words from array into hashset
-        HashSet<String> words = new HashSet<String>();
+        HashSet<String> words = new HashSet<>();
         for(String word : wordArray) {
             words.add(word);
         }
-        
         return words;
     }
 }
